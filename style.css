@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+
+
+.header {
+	overflow: hidden;
+	background: black;
+	height: 100px;
+}
+
+.wrapper {
+	width:90%;
+	margin: 0 auto;
+	
+	
+}
+
+.logo {
+	background: #ccc;
+	width: 300px;
+	height: 80px;
+	margin:10px 0px;
+	
+}
+
+.social-logo {
+  background: #ddd none repeat scroll 0 0;
+  height: 80px;
+  margin: 10px 10px;
+  width: 600px;
+}
+
+.nav {
+	overflow: hidden;
+	background: #ccc;
+}
+
+.nav ul{
+	margin:0;
+	padding: 0;
+
+}
+.nav ul li {
+  background: green none repeat scroll 0 0;
+  border: 1px solid white;
+  color: white;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  list-style: outside none none;
+  text-align: center;
+  width: 120px;
+}
+.nav ul li:first-child{
+	border-left: 0px solid white;
+}
+.nav ul li:last-child{
+	border-right: 0px solid white;
+}
+.nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.nav ul li a:hover{
+	background: white;
+	transition: 0.5s;
+	color:black;
+}
+
+#active{
+	background: #ccc;
+}
+
+.slider {
+	overflow: hidden;
+}
+
+.slider-content{
+background: #ddd;
+height: 200px;
+margin:0 auto;
+}
+
+.main-content {
+	overflow: hidden;
+}
+
+.content {
+}
+
+.content-left {
+}
+
+.content-right {
+}
+
+.content-bottom {
+}
+
+
