@@ -1,112 +1,160 @@
 *{
-	margin: 0;
+	margin:0;
 	padding: 0;
 }
+
 .left{
 	float:left;
 }
-
 .right{
-	float:right;
-}
-
-
-
-.header {
-	overflow: hidden;
-	background: black;
-	height: 100px;
-}
-
-.wrapper {
-	width:90%;
-	margin: 0 auto;
-	
-	
-}
-
-.logo {
-	background: #ccc;
-	width: 300px;
-	height: 80px;
-	margin:10px 0px;
-	
-}
-
-.social-logo {
-  background: #ddd none repeat scroll 0 0;
-  height: 80px;
-  margin: 10px 10px;
-  width: 600px;
-}
-
-.nav {
-	overflow: hidden;
-	background: #ccc;
-}
-
-.nav ul{
-	margin:0;
-	padding: 0;
-
-}
-.nav ul li {
-  background: green none repeat scroll 0 0;
-  border: 1px solid white;
-  color: white;
-  float: left;
-  height: 40px;
-  line-height: 40px;
-  list-style: outside none none;
-  text-align: center;
-  width: 120px;
-}
-.nav ul li:first-child{
-	border-left: 0px solid white;
-}
-.nav ul li:last-child{
-	border-right: 0px solid white;
-}
-.nav ul li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-.nav ul li a:hover{
-	background: white;
-	transition: 0.5s;
-	color:black;
-}
-
-#active{
-	background: #ccc;
-}
-
-.slider {
-	overflow: hidden;
-}
-
-.slider-content{
-background: #ddd;
-height: 200px;
-margin:0 auto;
-}
-
-.main-content {
-	overflow: hidden;
+float:right;
 }
 
 .content {
+  background: #ccc none repeat scroll 0 0;
+  margin: 0 auto;
+  
+  overflow: hidden;
+  width: 1000px;
 }
 
-.content-left {
+.logo{
+	width: 30%;
+	margin:0 auto;
 }
 
-.content-right {
+.logo h1 {
+  font-size: 30px;
+  line-height: 60px;
+  text-transform: capitalize;
+  margin-left: 10px;
+  color:greenyellow;
+}
+.logo h1:hover{
+	color:green;
+	transition: 0.6s;
 }
 
-.content-bottom {
+.search{
+	width: 30%;
+	margin:0 auto;
+}
+
+.social {
+  background: white none repeat scroll 0 0;
+  margin-right: 30px;
+  margin-top: 17px;
+  width: 148px;
+}
+
+#input-text {
+  background: #aaaaaa none repeat scroll 0 0;
+  border-radius: 7px 0 0 7px;
+  height: 36px;
+  margin-top: 18px;
+  width: 225px;
+  border: 1px solid greenyellow;
+  box-sizing: border-box;
+}
+#input-submit {
+  background-image: url("images/search.png");
+  background-size: 100% 100%;
+  border: 1px solid greenyellow;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 35px;
+  margin-left: -3px;
+  width: 55px;
+}
+.social img {
+  float: right;
+  height: 35px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 35px;
+  border-radius: 29px;
 }
 
 
+
+.slider{
+	background: greenyellow;
+	width: 100%;
+	height: 200px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	overflow: hidden;
+	clear:both;
+}
+
+
+.slider h2 {
+  width: 300px;
+  margin: 50px auto;
+}
+.main-content {
+  margin: 15px auto;
+  overflow: hidden;
+  width: 1000px;
+}
+.left-nav{
+	width: 280px;
+}
+.left-nav ul{
+	margin:0;
+	padding: 0;
+}
+.left-nav ul li {
+  background: green none repeat scroll 0 0;
+  border: 1px solid white;
+  font-size: 17px;
+  height: 35px;
+  line-height: 35px;
+  width: 260px;
+  list-style: none;
+}
+.left-nav ul li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.left-nav ul li a:hover{
+	background: black;
+	transition: 0.6s;
+	opacity: .6s;
+}
+
+.right-signup{
+width: 425px;
+}
+#input-design {
+  border: 1px solid;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+#input-signup {
+  background: green none repeat scroll 0 0;
+  height: 30px;
+  width: 69px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  color: white;
+  cursor: pointer;
+}
+
+#sel-input {
+  height: 27px;
+  margin-left: -5px;
+  text-align: center;
+  width: 54px;
+  margin-bottom: 2px;
+}
+
+textarea{
+  margin-top:5px;
+  margin-bottom: 10px;
+}
