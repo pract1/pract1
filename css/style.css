@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid #00ff27;
+	box-sizing: border-box;
+}
+
+.fix{
+    overflow: hidden;
+}
+
+.header {
+    border: 1px solid black;
+    box-sizing: border-box;
+    min-height: 70px;
+    margin-bottom: 10px;
+}
+
+.content {
+}
+
+.left-sidebar {
+    width: 25%;
+    min-height: 400px;
+    
+}
+
+.sidebar-top {
+    width: 290px;
+    min-height:100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+     margin-bottom: 10px;
+    
+}
+
+.sidebar-bottom {
+    width: 290px;
+    min-height:270px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.content-top-wrapper {
+	width: 75%;
+	min-height: 400px;
+}
+
+.content-top-left-wrapper {
+   width:70%;
+}
+
+.content-top-left-top-wrapper {
+    
+}
+
+.content-top-left-top1 {
+    width: 45%;
+    min-height: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+     box-sizing: border-box;
+}
+
+.content-top-left-top2 {
+     width: 45%;
+    min-height: 100px;
+    border: 1px solid black;
+     box-sizing: border-box;
+}
+
+.content-top-left-bottom {
+	border: 1px solid black;
+	min-height: 70px;
+	margin-top: 10px;
+     box-sizing: border-box;
+}
+
+.content-top-right {
+    width: 29%;
+    min-height: 180px;
+    border: 1px solid black;
+     box-sizing: border-box;
+    margin-bottom: 10px;
+   
+}
+
+.content-middle {
+	min-height: 100px;
+	border: 1px solid black;
+	width: 100%;
+     box-sizing: border-box;
+}
+
+.content-bottom-wrapper {
+	margin-top: 10px;
+}
+
+.content-bottom1 {
+	min-height: 80px;
+	border: 1px solid black;
+	width: 45%;
+     box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.content-bottom2 {
+    min-height: 80px;
+	border: 1px solid black;
+	width: 45%;
+     box-sizing: border-box;
+}
+
+.add {
+	min-height: 100px;
+	width: 100%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+.footer-top-wrapper {
+}
+
+.footer-top1 {
+	min-height: 100px;
+	width: 45%;
+	border: 1px solid black;
+	box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.footer-top2 {
+    min-height: 100px;
+	width: 45%;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.footer {
+    border: 1px solid black;
+    box-sizing: border-box;
+    min-height: 70px;
+    margin: 10px 0px;
+}

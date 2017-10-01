@@ -2,34 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>navbar design</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>complex layout</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div class="nav">
-            <ul>
-                <li id="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a>
-                    <ul>
-                        <li><a href="">category one</a></li>
-                        <li><a href="">category two</a></li>
-                        <li><a href="">category three</a></li>
-                        <li><a href="">category four</a></li>
-                        <li><a href="">category five</a></li>
-                        
-                    </ul>
-                </li>
-                <li><a href="#">Singn up</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </div>
-        <div class="slider">
-           search: <input type="text" name="search">
-        </div>
-       <div class="one"></div>
+    <div class="container fix">
+        <div class="header fix"></div>
+    <div class="content fix">
+            <div class="left-sidebar left fix">
+                <div class="sidebar-top fix"></div>
+                <div class="sidebar-bottom fix"></div>
+            </div>
+
+            <div class="content-top-wrapper right fix">
+                <div class="content-top-left-wrapper fix left">
+                    <div class="content-top-left-top-wrapper fix">
+                        <div class="content-top-left-top1 fix left"></div>
+                        <div class="content-top-left-top2 fix right"></div>
+                    </div>
+
+                    <div class="content-top-left-bottom fix"></div>
+                </div>
+
+                <div class="content-top-right fix right"></div>
+                  <div class="content-middle fix "></div>
+
+                  <div class="content-bottom-wrapper fix">
+                    <div class="content-bottom1 fix left"></div>
+                    <div class="content-bottom2 fix right"></div>
+                </div>
+            </div>
+
+            <div class="add fix"></div>
+
+            <div class="footer-top-wrapper fix">
+                <div class="footer-top1 fix left"></div>
+                <div class="footer-top2 fix right"></div>
+            </div>
+    </div>
+        <div class="footer fix"></div>
     </div>
 </body>
 </html>
