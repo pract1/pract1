@@ -1,70 +1,186 @@
 *{
-    margin: 0;padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix{
+    clear: both;
 }
 
-.container {
-    width:960px;margin: 0 auto;
-    
+.header {
+    overflow: hidden;
+    background: #161616;
+    min-height: 70px;
 }
 
-.nav {
-    background: black;
-    min-height: 50px;
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
 }
-.nav ul{
+
+.header-left {
+        width: 30%;
+}
+
+.header-left h1{
+        color: white;
+    margin-top: 18px;
+}
+
+.nav-section {
+    width: 28%;
+}
+
+.nav-section ul{}
+.nav-section ul li{float: left}
+
+.nav-section ul li:first-child{
     list-style: none;
 }
-.nav ul li{
-    float: left;
-    border-left:1px solid green;
-    border-right: 1px solid slategray;
-    position: relative;
-    
-}
 
-.nav ul li:first-child{border-left:none;}
-.nav ul li:last-child{border-right:none;}
-.nav ul li a{
-    display: block;
-    padding: 15px 20px;
-    text-decoration: none;
+.nav-section ul li a{
     color: white;
-    transition: 1s;
-    font-weight: bold;
+    padding: 25px 30px;
+    display: block;
+    text-decoration: none;}
+
+.nav-section ul li a:hover{
+    color: red;
 }
-.nav ul li a:hover{
-    background: white;
-    color:black;
-    transform: rotate(360deg) scale(1.2);
-    
+
+.nav-section ul li a:hover, #active{color: red}
+
+.slider {
+    overflow: hidden;
+    background: #2B2B2B;
+    min-height: 220px;
+}
+
+.slider-content {
+        width: 370px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.slider-content h2{
+       color: #565656;
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight:normal;
+}
+.slider-content h4{
+        color: #565656;
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.btn{}
+
+.important {
+    color: red;
+}
+
+.btn {
+    background: #FE6661;
+    border: none;
+    padding: 10px 26px;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.wrappper {
+}
+
+.single-content {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 20px;
+}
+
+.main-content{ width: 90%;
+    margin: 0 auto;}
+
+
+
+.single-content h2{
+    font-size: 16px;
+    margin: 10px 0px;
+    color: gray;
+}
+.single-content p{
+    color: gray;
+}
+
+.image-icon{}
+.image-icon i{
+        font-size: 42px;
+    color: gray;
+}
+
+.image-icon {
+}
+
+
+
+.footer {
+    overflow: hidden;
+    background: #272727;
+    min-height: 150px;
+}
+
+
+
+.footer-content{
+        width: 530px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-content h2{
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 10px
+}
+.footer-content p{
+        color: gray;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+
+
+.social-icon{
+    margin-bottom: 30px;
+}
+
+
+.facebook {
+        color: white;
+    background: #417692;
+    padding: 5px 9px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.twitter {
+        color: white;
+    background: #2E4B90;
+    padding: 5px 6px;
+    border-radius: 50px;
    
-   
-}
-#active{background: orange}
-
-/*dropdown css*/
-.nav ul li ul{position: absolute;left: -9999999px;background: green;}
-.nav ul li:hover ul{left:0}
-.nav ul li ul li{float:none;border-left:none;border-right:none;border-top: 1px solid yellow;border-bottom: 1px solid yellow}
-.nav ul li ul li a{width: 200px}
-.nav ul li ul li a:hover{transform: none}
-
-
-.slider{
-   background-image: url('images/web2.jpg') no-repeat;
-    
-    
 }
 
-input[type=text]{width: 100px;transition: .35s}
-input[type=text]:focus{width: 250px;}
 
-.one{width: 100px;height: 100px;background: red;transition: 1s}
-.one:hover{width: 200px;height: 500px}
-.image-gallery {
-    
-     
-}
-
-.image-gallery-design {
-}
