@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+
+.header {
+    overflow: hidden;
+    background: #161616;
+    min-height: 70px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-left {
+        width: 30%;
+}
+
+.header-left h1{
+        color: white;
+    margin-top: 18px;
+}
+
+.nav-section {
+    width: 28%;
+}
+
+.nav-section ul{}
+.nav-section ul li{float: left}
+
+.nav-section ul li:first-child{
+    list-style: none;
+}
+
+.nav-section ul li a{
+    color: white;
+    padding: 25px 30px;
+    display: block;
+    text-decoration: none;}
+
+.nav-section ul li a:hover{
+    color: red;
+}
+
+.nav-section ul li a:hover, #active{color: red}
+
+.slider {
+    overflow: hidden;
+    background: #2B2B2B;
+    min-height: 220px;
+}
+
+.slider-content {
+        width: 370px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.slider-content h2{
+       color: #565656;
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight:normal;
+}
+.slider-content h4{
+        color: #565656;
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.btn{}
+
+.important {
+    color: red;
+}
+
+.btn {
+    background: #FE6661;
+    border: none;
+    padding: 10px 26px;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.wrappper {
+}
+
+.single-content {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 20px;
+}
+
+.main-content{ width: 90%;
+    margin: 0 auto;}
+
+
+
+.single-content h2{
+    font-size: 16px;
+    margin: 10px 0px;
+    color: gray;
+}
+.single-content p{
+    color: gray;
+}
+
+.image-icon{}
+.image-icon i{
+        font-size: 42px;
+    color: gray;
+}
+
+.image-icon {
+}
+
+
+
+.footer {
+    overflow: hidden;
+    background: #272727;
+    min-height: 150px;
+}
+
+
+
+.footer-content{
+        width: 530px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-content h2{
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 10px
+}
+.footer-content p{
+        color: gray;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+
+
+.social-icon{
+    margin-bottom: 30px;
+}
+
+
+.facebook {
+        color: white;
+    background: #417692;
+    padding: 5px 9px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.twitter {
+        color: white;
+    background: #2E4B90;
+    padding: 5px 6px;
+    border-radius: 50px;
+   
+}
+
+
